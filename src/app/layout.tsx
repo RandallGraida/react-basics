@@ -13,10 +13,9 @@ import RenderMovieExplorer from "./components/describing_the_ui/movie_explorer/m
 */
 
 // --------------------- Adding Interactivity ----------------------------------
-// <RenderRespondingTE />
-// <RenderState />
-import RenderAndCommit from "./components/adding_interactivity/components/render-and-commit";
-import { create } from "domain";
+// import RenderAndCommit from "./components/adding_interactivity/components/render-and-commit";
+// import SeriesStateUpdates from "./components/adding_interactivity/components/series-state-updates";
+import UpdateObjectsState from "./components/adding_interactivity/components/update-objects-state";
 
 // Runs page
 
@@ -24,7 +23,7 @@ export default function MyApp() {
   return (
     <html>
       <body>
-        <RenderAndCommit />
+        <UpdateObjectsState />
       </body>
     </html>
   );
@@ -46,4 +45,5 @@ export default function MyApp() {
 /**
  * <RenderRespondingTE />
  * <RenderState />
+ * <RenderAndCommit />
  */
